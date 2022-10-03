@@ -1,0 +1,35 @@
+.shop-top{
+    /* background-color: #2C0000; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-select-token-buttons{
+    display: flex;
+    /* background-color: antiquewhite; */
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shop-token-button{
+    width:60px;
+    background-color: #2C0000;
+    height: 30px;
+    margin:10px;
+    color:white;
+    align-items: center;
+    text-align: center;
+    border:0px solid black;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.shop-token-button.active,.shop-token-button:hover{
+    opacity:0.6;
+}
+
+.shop-token-button:active{
+    opacity:0.3;
+}

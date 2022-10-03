@@ -1,0 +1,223 @@
+.main-pool {
+    padding: 60px;
+    display: block;
+    align-items: center;
+    position: relative;
+    /* background-color: green; */
+    /* filter: blur(5px); */
+}
+
+.main-pool-card {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    /* opacity:40%; */
+    /* background-color: aquamarine; */
+}
+
+.main-pool-energy-card {
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    /* max-width: 250px; */
+    flex-direction: column;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: gray; */
+}
+
+.main-pool-card.img {
+    max-width: 150px;
+    /* max-height: 240px; */
+    opacity: 0.2;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    /* box-shadow: 0px 0px 30px #e40303; */
+    /* display: block; */
+}
+
+.main-pool-card.img-active {
+    max-width: 150px;
+    /* max-height: 240px; */
+    opacity: 1;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    /* box-shadow: 0px 0px 30px #e40303; */
+
+
+}
+
+.main-pool-card.active {
+    display: inline-block;
+    margin-top: 100px;
+
+    /* opacity:20%; */
+
+}
+
+.main-pool-active-cards {
+    display: block;
+    align-items: center;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.main-pool-item-weight {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    padding: 5px;
+    color: white;
+    opacity: 1;
+}
+
+.main-pool-dropdown-toggle, .main-pool-dropdown-toggle:hover, .main-pool-dropdown-toggle:active, .main-pool-dropdown-toggle:focus {
+    color: white !important;
+    background-color: #2C0000 !important;
+    border-color: #2C0000 !important;
+    box-shadow: none !important;
+}
+
+.main-pool-img-slots {
+    position: relative;
+    /* background-color: rgb(94, 94, 73); */
+    /* max-width: 100%; */
+}
+
+.main-pool-tool-img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    max-width: 75px;
+    background-color: black;
+    opacity: 0.4;
+
+}
+
+.main-pool-tool-img.exist {
+    opacity: 1;
+}
+
+.main-pool-dropdown-tool-toggle {
+    background-color: #4f0505;
+    border: 0px solid black;
+    margin-left: 3px;
+}
+
+.main-pool-dropdown-tool-toggle:hover {
+    background-color: #4f0505;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.warpass-pool-energy-warpass-div {
+    display: inline-block;
+    /* background-color: blue; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media (max-height: 200px) {
+    .dropdown-menu {
+    }
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: scroll;
+    /* height: 1000px; */
+    font-size: 14px;
+    /* background-color: #4f0505; */
+}
+
+.blured {
+    filter: blur(10px);
+    /* position:absolute; */
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    /* background-color: grey; */
+}
+
+.exstention {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    /* background-color: antiquewhite; */
+}
+
+.extension-text {
+    color: white;
+}
+
+.extension-btn {
+    color: #ba1717
+}
+
+.modalerr {
+    background-color: #2C0000;
+    color: white;
+    border: 0px solid black;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+.modal-close {
+    height: 50px;
+    /* width: 100px; */
+    background-color: rgb(109, 14, 14);
+    border: 0px solid black;
+    border-radius: 15px;
+}
+
+.modal-close:hover {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.modal-close:active {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+.little_coin_img {
+    height: 20px;
+}
+
+.image-block {
+    display: block;
+    height: 240px;
+}
+
+.main-statistic {
+    /* display:flex; */
+    /* align-self: center; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tokens-to-recieve {
+    color: white;
+    border: 2px solid #2c0000;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}

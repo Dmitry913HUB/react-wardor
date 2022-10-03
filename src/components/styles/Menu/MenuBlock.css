@@ -1,0 +1,111 @@
+.menu-block{
+
+    height: 50px;
+    width: 100%;
+    background-color: rgba(44, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* justify-content: center; */
+}
+
+
+.menu-items{
+    display: flex;
+    /* justify-content: flex-end; */
+    /* background-color: antiquewhite; */
+    /* align-self: flex-end; */
+    position: absolute;
+    right: 0px;
+}
+
+.menu-items-dropdown{
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+    display: block;
+    position: static;
+    background-color: rgba(44, 0, 0, 0.5);
+    align-items: center;
+}
+
+.menu-items-dropdown.opened{
+    max-height: 5000px;
+    transition: max-height 0.5s;
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu-items-dropdown{
+        display: none;
+    }
+}
+
+
+
+
+.menu-href{
+    /* display: inline-block; */
+    /* margin-right: 24px; */
+    /* background-color: brown; */
+    height: 40px;
+    width:80px;
+    color:white;
+    font-style: none;
+    border:0px solid black;
+    border-radius: 15px;
+    /* justify-content: center; */
+    text-align: center;
+    text-decoration:none;
+    margin-left: 5px;
+    margin-right: 10px;
+    /* align-items: center; */   
+}
+
+.menu-href-dropdown{
+    /* background-color: aliceblue; */
+    height: 40px;
+    width: 100%;
+    color:white;
+    font-style: none;
+    border:0px solid black;
+    border-radius: 15px;
+    /* justify-content: center; */
+    text-align: center;
+    text-decoration:none;
+}
+
+.menu-href.disabled,.menu-href-dropdown.disabled{
+    opacity: 0.2;
+}
+
+.menu-href:hover,.menu-href-dropdown:hover{
+    color:white;
+    opacity:0.2;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu-items{
+        display: none;
+    }
+}
+
+.menu-dropdown{
+    /* background-color: brown; */
+    position: absolute;
+    right: 0px;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-dropdown:active{
+    opacity:0.2;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-dropdown{
+        display: none;
+    }
+}
