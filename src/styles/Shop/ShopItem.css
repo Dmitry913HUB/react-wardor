@@ -1,0 +1,133 @@
+
+
+.static-position{
+    position: static;
+}
+
+.shop-item{
+    margin:5px;
+    /* background-color:steelblue; */
+    /* display:block; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* flex-direction: row; */
+    /* max-width: 300px; */
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.shop-item-image{
+    width: 18vw;
+    max-width: 200px;
+    min-width: 200px;
+    /* box-shadow: 0px 0px 30px white; */
+}
+
+.shop-item-count-block{
+    background-color: aqua;
+    margin-top: 20px;
+    width: 18vw;
+    max-width: 200px;
+    min-width: 190px;
+    height: auto;
+    display: flex;
+    position:relative;
+    margin-bottom: 20px;
+
+    /* justify-content: space-between; */
+}
+
+.shop-item-choose-count{
+    /* background-color: brown; */
+    /* display: flex; */
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:0px;
+    /* margin-right: 25px; */
+}
+
+.shop-item-count{
+    font-size: 25px;
+}
+
+.shop-item-count.zero{
+    opacity: 0.2;
+}
+
+.shop-item-buy-button{
+    display:inline-flex;
+    background-color: rgba(44, 0, 0, 1);
+    border:0px solid black;
+    border-radius: 5px;
+    /* width: 100px; */
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0px;
+    /* margin-left: 25px; */
+}
+
+.shop-item-buy-button.nonactive{
+    opacity:0.3;
+}
+
+.shop-item-buy-button:hover{
+    opacity: 0.6;
+}
+
+.shop-item-buy-button:active{
+    opacity:0.3;
+}
+
+
+
+.shop-item-operators{
+    font-size: 20px;
+    width: 22px;
+    height: 22px;
+    /* background-color: blueviolet; */
+    border:0px solid black;
+    border-radius: 5px;
+    /* padding-left:8px; */
+    /* padding-right: 8px; */
+    margin-left: 3px;
+    margin-right: 3px;
+    opacity:0.4;
+}
+
+
+
+.shop-item-total{
+    /* background-color: white; */
+    display: block;
+    position: relative;
+    width: 18vw;
+    max-width: 200px;
+    min-width: 170px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.shop-item-total-text{
+    display: inline-flex;
+    position: absolute;
+    left:10px;
+    opacity: 0.2;
+    font-size: 13px;
+}
+
+.shop-item-total-price{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+}
