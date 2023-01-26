@@ -1,12 +1,13 @@
 # react_wardor
 
-должeн стоять NodeJS
+## To use the application, you need the following
 
+NodeJS is required to run the application
 
-удобно использовать git bash
+{ npm i } to install dependencies
 
+to start a project { npm run start }
 
-{ npm i } для установки зависимостей
+## web application structure
 
-
-для старта проекта { npm run start }
+the web application consists of an informational (pages that contain information about the sales of the collection itself) a functional part (craft pages, staking, shop, inventory)
